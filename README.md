@@ -44,6 +44,8 @@ docker run -p 80:5000 -e SERVER_PORT=5000 -e DB_USER=postgres -e DB_PASSWORD=pas
 
 ### Frontend
 
+**Importante:** É necessario atualizar a rota do servidor da API no arquivo .env da pasta frontend, pois as "variaveis de ambiente" são transpiladas durante o processo de build
+
 **Configurações**
 
 - Imagem: Ubuntu (Versão usada durante testes: Ubuntu Server 20.04 LTS)
